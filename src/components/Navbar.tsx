@@ -38,6 +38,7 @@ export default function Navbar() {
             <li><a href="#inicio" className="hover:text-gray-600 block">Início</a></li>
             <li><a href="#produtos" className="hover:text-gray-600 block">Produtos</a></li>
             <li><a href="#contato" className="hover:text-gray-600 block">Contato</a></li>
+            <li><a href="#sobre" className="houver:text-gray-600">Sobre</a></li>
           </ul>
         </div>
       )}
