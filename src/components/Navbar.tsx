@@ -24,9 +24,9 @@ export default function Navbar() {
 
         {/* Links no desktop */}
         <ul className="hidden md:flex space-x-6 text-sm font-medium">
-          <li><a href="#" className="hover:text-gray-600">Início</a></li>
-          <li><a href="#" className="hover:text-gray-600">Produtos</a></li>
-          <li><a href="#" className="hover:text-gray-600">Contato</a></li>
+          <li><a href="#inicio" className="hover:text-gray-600">Início</a></li>
+          <li><a href="#produtos" className="hover:text-gray-600">Produtos</a></li>
+          <li><a href="#contato" className="hover:text-gray-600">Contato</a></li>
         </ul>
       </nav>
 
@@ -34,9 +34,9 @@ export default function Navbar() {
       {isOpen && (
         <div className="md:hidden px-6 pb-4">
           <ul className="flex flex-col space-y-2 text-sm font-medium">
-            <li><a href="#" className="hover:text-gray-600 block">Início</a></li>
-            <li><a href="#" className="hover:text-gray-600 block">Produtos</a></li>
-            <li><a href="#" className="hover:text-gray-600 block">Contato</a></li>
+            <li><a href="#inicio" className="hover:text-gray-600 block">Início</a></li>
+            <li><a href="#produtos" className="hover:text-gray-600 block">Produtos</a></li>
+            <li><a href="#contato" className="hover:text-gray-600 block">Contato</a></li>
           </ul>
         </div>
       )}
