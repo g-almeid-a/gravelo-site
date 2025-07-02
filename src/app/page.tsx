@@ -2,6 +2,7 @@ import Navbar from '../components/Navbar';
 import Inicio from '../components/Inicio';
 import Produtos from '../components/Produtos';
 import Contato from '../components/Contato';
+import Sobre from '../components/Sobre';
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Inicio />
       <Produtos />
       <Contato />
+      <Sobre />
 
       {/* Espaçamento para não cobrir a parte de baixo */}
       <div className="h-20" />
