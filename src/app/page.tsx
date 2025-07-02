@@ -16,7 +16,7 @@ export default function Home() {
       
       {/* Adiciona um marca d'agua*/}
       <img
-        src="logoMelhorQualidade.png" alt="Marca d'água" className="fixed bottom-0 right-0 w-32 h-auto m-4 opacity -30 pointer-events-none"
+        src="/logoMelhorQualidade.png" alt="Marca d'água" className="fixed bottom-0 right-0 w-32 h-auto m-4 opacity -30 pointer-events-none"
       />
 
     </main>
